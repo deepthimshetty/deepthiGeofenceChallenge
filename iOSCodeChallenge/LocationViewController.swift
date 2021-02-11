@@ -21,10 +21,6 @@ class LocationViewController: UIViewController,CLLocationManagerDelegate {
         mapView.userTrackingMode = .follow
         locationManager.delegate = self
         setupGeofence()
-        
-        
-        
-        
         // Do any additional setup after loading the view.
     }
 
